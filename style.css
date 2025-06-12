@@ -1,108 +1,46 @@
-/* iPhone 16 Pro Max - 6 */
-
-position: relative;
-width: 440px;
-height: 956px;
-
-background: #000000;
-
-
-/* Camily n 6, Giulia n 11, Luiza n 28, Vinicius n 36 3 CDS */
-
-position: absolute;
-width: 355px;
-height: 38px;
-left: 23px;
-top: 875px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #6A80B9;
-
-
-
-/* Group 27 */
-
-position: absolute;
-width: 314px;
-height: 313px;
-left: 63px;
-top: 186px;
-
-
-
-/* Ellipse 12 */
-
-position: absolute;
-width: 314px;
-height: 313px;
-left: 63px;
-top: 186px;
-
-background: #292929;
-
-
-/* c6830e661cf5d1dc1d37e9f11504fd87 1 */
-
-position: absolute;
-width: 267.57px;
-height: 253.42px;
-left: 91.61px;
-top: 215.21px;
-
-background: url(c6830e661cf5d1dc1d37e9f11504fd87.jpg);
-border-radius: 127.5px;
-
-
-/* Vintage Store */
-
-position: absolute;
-width: 242px;
-height: 68px;
-left: 99px;
-top: 526px;
-
-font-family: 'Italianno';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 80px;
-
-color: #FFFFFF;
-
-
-
-/* Rectangle 176 */
-
-position: absolute;
-width: 178px;
-height: 53px;
-left: 131px;
-top: 621px;
-
-background: #D9D9D9;
-border-radius: 21px;
-
-
-/* Continuar */
-
-position: absolute;
-width: 116px;
-height: 6px;
-left: 167px;
-top: 634px;
-
-font-family: 'Italiana';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-
-
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: "Poppins", sans-serif;
+}
+header{
+background-color: #944E63;
+color: B47B84;
+width: 100%;
+padding: 20px;
+}
+.cabecalho-itens{
+max-width: 1980px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cabecalho-imagem{
+width: 10%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.titulo_site{
+padding: 50px;
+text-align: center;
+width: 50%;
+font: 30px;
+}
+.sociais{
+display: flex;
+justify-content: flex-end;
+width: 25%;
+padding-right: 30px;
+}
+.banner1{
+display: flex;
+justify-content: center;
+}
+.estudante_titulo{
+padding: 50px;
+text-align: center;
