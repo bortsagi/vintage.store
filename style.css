@@ -1,46 +1,15 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+/* Define a largura e altura da tela como 100% */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Cor de fundo preta */
 }
-body{
-font-family: "Poppins", sans-serif;
+
+/* Cria um retângulo azul escuro na parte superior */
+.retangulo {
+    width: 100%;
+    height: 15%; /* O retângulo ocupa 15% da altura */
+    background-color: #003366; /* Azul escuro */
 }
-header{
-background-color: #944E63;
-color: B47B84;
-width: 100%;
-padding: 20px;
-}
-.cabecalho-itens{
-max-width: 1980px;
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.cabecalho-imagem{
-width: 10%;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-}
-.titulo_site{
-padding: 50px;
-text-align: center;
-width: 50%;
-font: 30px;
-}
-.sociais{
-display: flex;
-justify-content: flex-end;
-width: 25%;
-padding-right: 30px;
-}
-.banner1{
-display: flex;
-justify-content: center;
-}
-.estudante_titulo{
-padding: 50px;
-text-align: center;
