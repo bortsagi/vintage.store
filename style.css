@@ -62,7 +62,7 @@ body{
     }
 
     .estudante{
-        background-image: background-color(#293E72);
+        background-image: background-color(#FFFFFFF);
         padding: 24px 0;
     }
 
@@ -76,7 +76,7 @@ body{
         justify-content: space-around;
     }
    .escola{
-        background-image: linear-gradient(#6A80B9,#424242);
+        background-image: linear-gradient(#FFFFFFF,#FFFFFF);
         color: black;
         display: flex;
         justify-content:center;
